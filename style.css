@@ -1,0 +1,22 @@
+/* General body styling is handled by Tailwind classes in index.html */
+/* Add any custom CSS here that is not covered by Tailwind or to override it */
+
+/* Example: Custom button style (not used in current HTML but for demonstration) */
+.custom-button {
+    background-color: #f97316; /* Orange-500 */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem; /* rounded-lg */
+    font-weight: 600; /* font-semibold */
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #ea580c; /* Orange-600 */
+}
+
+/* Ensure images scale correctly */
+img {
+    max-width: 100%;
+    height: auto;
+}

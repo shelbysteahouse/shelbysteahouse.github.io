@@ -1,4 +1,115 @@
----
-layout: home
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <!-- Load Tailwind CSS for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Using Inter font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold rounded-lg p-2 bg-blue-700">My Awesome Page</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="hover:text-blue-200 transition duration-300">Home</a></li>
+                    <li><a href="about.html" class="hover:text-blue-200 transition duration-300">About</a></li>
+                    <li><a href="contact.html" class="hover:text-blue-200 transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="container mx-auto my-8 p-6 bg-white rounded-xl shadow-lg max-w-4xl">
+
+        <!-- Introduction Section -->
+        <section class="mb-8 p-6 bg-blue-50 rounded-lg shadow-inner">
+            <h2 class="text-3xl font-semibold mb-4 text-blue-700">Welcome to My Corner of the Internet!</h2>
+            <p class="text-lg leading-relaxed">
+                Hello there! This is a simple example website to show you how to host content with pictures and links using your custom domain.
+                Feel free to explore and modify it as you wish!
+            </p>
+        </section>
+
+        <!-- Image Section -->
+        <section class="mb-8 p-6 bg-gray-50 rounded-lg shadow-inner">
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">A Glimpse of Nature</h2>
+            <figure class="text-center">
+                <!-- Placeholder image: replace with your own image URL, e.g., 'images/my-nature-photo.jpg' -->
+                <img src="https://placehold.co/800x450/4CAF50/ffffff?text=Beautiful+Landscape" alt="A beautiful, serene landscape" class="rounded-lg shadow-md mb-4 mx-auto w-full md:w-3/4 lg:w-2/3">
+                <figcaption class="text-gray-600 italic">This could be your stunning photograph!</figcaption>
+            </figure>
+            <p class="mt-4 leading-relaxed">
+                Images add so much life to a website. Make sure to optimize your images for web use to ensure fast loading times.
+            </p>
+        </section>
+
+        <!-- Links Section -->
+        <section class="mb-8 p-6 bg-blue-50 rounded-lg shadow-inner">
+            <h2 class="text-3xl font-semibold mb-4 text-blue-700">Useful Links</h2>
+            <ul class="list-disc list-inside space-y-2 text-lg">
+                <li>
+                    <a href="about.html" class="text-blue-600 hover:text-blue-800 hover:underline transition duration-300">Learn More About Me</a>
+                    - Visit my "About Me" page to find out more.
+                </li>
+                <li>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline transition duration-300">Visit GitHub</a>
+                    - Check out the platform where your code lives! (Opens in a new tab)
+                </li>
+                <li>
+                    <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline transition duration-300">Explore Tailwind CSS</a>
+                    - Discover the utility-first CSS framework used for this page's styling.
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-6 mt-8 shadow-inner">
+        <div class="container mx-auto text-center">
+            <p class="text-sm">&copy; 2025 My Personal Website. All rights reserved.</p>
+            <p class="text-sm mt-2">Built with ❤️ and a little bit of code.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+```css
+/* style.css */
+
+/* General body styling is handled by Tailwind classes in index.html */
+/* Add any custom CSS here that is not covered by Tailwind or to override it */
+
+/* Example: Custom button style (not used in current HTML but for demonstration) */
+.custom-button {
+    background-color: #f97316; /* Orange-500 */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem; /* rounded-lg */
+    font-weight: 600; /* font-semibold */
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #ea580c; /* Orange-600 */
+}
+
+/* Ensure images scale correctly */
+img {
+    max-width: 100%;
+    height: auto;
+}
