@@ -1,0 +1,25 @@
+# Site settings
+title: Shelby's Tea House
+description: >- # this means to ignore newlines until "baseurl:"
+  Taste curated teas in a traditional Gungfu tea ceremony. Learn, sip, and tell stories.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourcustomdomain.com" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: America/New_York # Set your timezone for correct date handling
+
+# Build settings
+markdown: kramdown # You can use other markdown parsers if preferred
+theme: null # We're using custom layouts, so set theme to null
+plugins:
+  - jekyll-feed # For RSS feed generation (optional but good for blogs)
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# For more information, please visit: https://jekyllrb.com/docs/configuration/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

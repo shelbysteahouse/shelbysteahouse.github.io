@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="p-6 bg-gray-50 rounded-lg shadow-inner">
+    <h2 class="text-4xl font-bold text-gray-800 mb-4">{{ page.title }}</h2>
+    <p class="text-gray-600 text-sm mb-6">Published on {{ page.date | date: "%B %-d, %Y" }} by {{ page.author }}</p>
+
+    {% if page.image %}
+    <figure class="mb-6 text-center">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" class="rounded-lg shadow-md mx-auto w-full">
+        {% if page.image_caption %}
+        <figcaption class="text-gray-600 italic mt-2">{{ page.image_caption }}</figcaption>
+        {% endif %}
+    </figure>
+    {% endif %}
+
+    <div class="prose max-w-none text-lg text-gray-700 leading-relaxed">
+        {{ content }}
+    </div>
+</article>
+
+<div class="mt-8 text-center">
+    <a href="{{ "/weblogs.html" | relative_url }}" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform transition duration-300 hover:scale-105">
+        &larr; Back to Weblogs
+    </a>
+</div>
