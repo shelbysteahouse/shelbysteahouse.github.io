@@ -3,7 +3,9 @@ layout: default
 ---
 <article class="p-6 bg-gray-50 rounded-lg shadow-inner">
     <h2 class="text-4xl font-bold text-gray-800 mb-4">{{ page.title }}</h2>
-    <p class="text-gray-600 text-sm mb-6">Published on {{ page.date | date: "%B %-d, %Y" }} by {{ page.author }}</p>
+    <p class="text-gray-600 text-sm mb-6">Session on {{ page.date | date: "%B %-d, %Y" }} with {{ page.guest-names }}</p>
+
+    {% include guests.html %}
 
     {% if page.image %}
     <figure class="mb-6 text-center">
@@ -14,9 +16,23 @@ layout: default
     </figure>
     {% endif %}
 
-    <div class="prose max-w-none text-lg text-gray-700 leading-relaxed">
-        {{ content }}
-    </div>
+    <section class="mb-8 p-6 bg-green-50 rounded-lg shadow-inner">
+    <h2 class="text-3xl font-semibold mb-4 text-green-700">Teas We Had</h2>
+    <p class="text-lg leading-relaxed mb-4">
+        Here are the wonderful teas we enjoyed during the ceremony, with links where you could 
+        learn more about them:
+    </p>
+    {% for tea in page.teas %}
+        {% include tea.html tea=tea %}
+        <br/>
+    {% endfor %}
+
+    </section>
+
+    {% include playlist.html playlist=page.music %}
+
+    {% include textme.html %}
+
 </article>
 
 <div class="mt-8 text-center">

@@ -1,0 +1,59 @@
+# _data/teas.yml
+# This file contains the master list of tea data, now with unique IDs.
+
+- id: roug24 # Rou Gui Wuyi + 2024
+  name: Rou Gui Wuyi
+  category: oolong
+  year: 2024
+  temp_f: 183
+  notes: [nutty, raw, earthy]
+  link: https://verdanttea.com/rou-gui-light-roast-reserve-oolong
+- id: jing24 # Imperial Jin Guan Yin + 2024
+  name: Imperial Jin Guan Yin
+  category: oolong
+  year: 2024
+  temp_f: 183
+  notes: [floral, vegetal]
+  link: https://yunnansourcing.com/products/imperial-jin-guan-yin-aaa-grade-anxi-oolong-tea
+- id: maoc23 # Yunnan Maocha 2023
+  name: Yulan Maocha (Brick)
+  category: oolong
+  year: 2023
+  temp_f: 187
+  notes: [floral, smoky, dry mouthfeel]
+  link: https://white2tea.com/products/2023-yulan-maocha-brick
+- id: snai24 # Spring Snail (Bi Luo Chun) + 2024
+  name: Spring Snail (Bi Luo Chun)
+  category: green
+  year: 2024
+  temp_f: 183
+  notes: [floral, creamy, bitter]
+  link: https://yunnansourcing.us/products/yunnan-green-spring-snail-bi-luo-chun-green-tea
+- id: jasm24 # Jasmine 24
+  name: Imperial Grade Jasmine Pearls
+  category: green
+  year: 2024
+  temp_f: 183
+  notes: [floral, creamy, minty]
+  link: https://yunnansourcing.com/products/imperial-grade-jasmine-pearls-green-tea-1
+- id: shgbl15 # Big Leaf Bamboo + 2015
+  name: Big Leaf Bamboo
+  category: sheng pu'er
+  year: 2015
+  temp_f: 193
+  notes: [hay, grassy, sweet]
+  link: https://white2tea.com/products/big-leaf-bamboo-sheng-puer
+- id: huan02 # Huangpian
+  name: Yiwu Huangpian (Brick)
+  category: sheng pu'er
+  year: 2002
+  temp_f: 193
+  notes: [hay, grassy, sweet, aged]
+  link: https://white2tea.com/products/2002-yiwu-huangpian-raw-puer-brick
+- id: jiao24 # Yunnan Wild Grown Jiaogulan + 2024
+  name: Yunnan Wild Grown Jiaogulan
+  category: herbal
+  year: 2024
+  temp_f: 183
+  notes: [sweet, vegetal]
+  link: https://yunnansourcing.com/products/yunnan-wild-grown-jiaogulan-gynostemma-pentaphyllum

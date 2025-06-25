@@ -1,0 +1,16 @@
+<!-- Guests -->
+<section class="mb-8 p-6 bg-blue-50 rounded-lg shadow-inner">
+    <p class="text-lg leading-relaxed">
+        <p class="lg-4 text-gray-700">
+            {{ page.guest-body }}
+        </p>
+
+        {% if page.guest-ps %}
+        <br/>
+        <p>
+            [PS: {{ page.guest-ps }}]
+        </p>
+        {% endif %}
+
+    </p>
+</section>

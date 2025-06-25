@@ -3,7 +3,7 @@ title: Shelby's Tea House
 description: >- # this means to ignore newlines until "baseurl:"
   Taste curated teas in a traditional Gungfu tea ceremony. Learn, sip, and tell stories.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourcustomdomain.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://shelbysteahouse.com" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: America/New_York # Set your timezone for correct date handling
 
 # Build settings

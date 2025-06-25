@@ -1,0 +1,22 @@
+{% assign featured_playlist = null %}
+
+    {% for playlist in site.data.playlists %}
+        {% if playlist.id == include.playlist %}
+            {% assign featured_playlist = playlist %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+
+    {% if featured_playlist != nil %}
+
+<section class="text-center p-6 bg-green-100 rounded-xl shadow-inner">
+    <a target="_blank"
+        href="{{ featured_playlist.link }}"
+        class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform transition duration-300 hover:scale-105">
+        The playlist</a>
+    <p class="text-lg leading-relaxed mb-4">
+        Enjoy the music we played during the ceremony
+    </p>
+</section>
+
+    {% endif %}
