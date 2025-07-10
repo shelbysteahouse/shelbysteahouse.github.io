@@ -1,0 +1,15 @@
+{% assign featured_image = null %}
+
+{% for image in site.data.images %}
+    {% if image.id == include.image %}
+        {% assign featured_image = image %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
+<figure class="mb-6 text-center">
+    <img src="{{ featured_image.url | relative_url }}" 
+    alt="{{ featured_image.caption | default: page.title }}" 
+    class="rounded-lg shadow-md mx-auto w-full">
+    <figcaption class="text-gray-600 italic mt-2">({{ featured_image.caption }})</figcaption>
+</figure>

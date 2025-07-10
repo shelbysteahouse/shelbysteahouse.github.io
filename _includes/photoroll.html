@@ -4,41 +4,25 @@
 
     <!-- Slideshow container -->
     <div class="slideshow-container">
-
-        <!-- Full-width images with number and caption text -->
+        {% assign current_index = 1 %}
+        {% for image in site.data.images %}
         <div class="mySlides fade">
-            <div class="numbertext">1 / 4</div>
-            <img src="assets/images/ceremony.JPG" style="width:100%">
-            <div class="text">Gungfu tea ceremony</div>
+            <div class="numbertext">{{ current_index}} / {{ site.data.images | size }}</div>
+            <img src="{{ image.url }}" style="width:100%">
+            <div class="text">{{ image.caption }}</div>
         </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 4</div>
-            <img src="assets/images/serving.JPG" style="width:100%">
-            <div class="text">Serving tea</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 4</div>
-            <img src="assets/images/tea-table.JPG" style="width:100%">
-            <div class="text">Tea Setup</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 4</div>
-            <img src="assets/images/steam.JPG" style="width:100%">
-            <div class="text">Steam is in the air!</div>
-        </div>
-
+        {% assign current_index = current_index | plus: 1 %}
+        {% endfor %}
     </div>
     <br>
 
     <!-- The dots/circles -->
     <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
+        {% assign current_index = 1 %}
+        {% for image in site.data.images %}
+        <span class="dot" onclick="currentSlide({{ current_index }})"></span>
+        {% assign current_index = current_index | plus: 1 %}
+        {% endfor %}
     </div>
 
     <p class="mt-4 leading-relaxed">

@@ -1,0 +1,12 @@
+- id: steam
+  url: assets/images/steam.jpg
+  caption: Steam is in the air!
+- id: ceremony
+  url: assets/images/ceremony.jpg
+  caption: Gungfu tea ceremony in action
+- id: serving
+  url: assets/images/serving.jpg
+  caption: Savoring every last drop!
+- id: table
+  url: assets/images/table.jpg
+  caption: A tea table for our tea friends!

@@ -8,14 +8,7 @@ layout: default
     {% include guests.html %}
 
     {% if page.image %}
-    <figure class="mb-6 text-center">
-        <img src="{{ page.image | relative_url }}" 
-        alt="{{ page.image_caption | default: page.title }}" 
-        class="rounded-lg shadow-md mx-auto w-full">
-        {% if page.image_caption %}
-        <figcaption class="text-gray-600 italic mt-2">{{ page.image_caption }}</figcaption>
-        {% endif %}
-    </figure>
+    {% include image.html image=page.image %}
     {% endif %}
 
     <section class="mb-8 p-6 bg-green-50 rounded-lg shadow-inner">
