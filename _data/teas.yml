@@ -57,3 +57,17 @@
   temp_f: 183
   notes: [sweet, vegetal]
   link: https://yunnansourcing.com/products/yunnan-wild-grown-jiaogulan-gynostemma-pentaphyllum
+- id: dayu24
+  name: Da Yu Ling
+  category: oolong
+  year: 2024
+  temp_f: 183
+  notes: [sweet, corn]
+  link: https://www.fangtea.com/product-page/da-yu-ling-%E5%A4%A7%E7%A6%B9%E5%B6%BA
+- id: gtshu14
+  name: Gong Ting Shu Brick
+  category: shu puerh
+  year: 2014
+  temp_f: 193
+  notes: [cedar, molasses, honey, fig]
+  link: https://verdanttea.com/qianjiazhai-2014-gong-ting-shu-puer-250g
