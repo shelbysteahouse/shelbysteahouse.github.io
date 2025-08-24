@@ -8,9 +8,15 @@ timezone: America/New_York # Set your timezone for correct date handling
 
 # Build settings
 markdown: kramdown # You can use other markdown parsers if preferred
-theme: null # We're using custom layouts, so set theme to null
+theme: minima # We're using custom layouts, so set theme to null
 plugins:
-  - jekyll-feed # For RSS feed generation (optional but good for blogs)
+  - jekyll-feed
+  - jekyll-sitemap
+
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
