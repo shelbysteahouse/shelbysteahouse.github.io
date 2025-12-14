@@ -43,6 +43,13 @@
   temp_f: 193
   notes: [hay, grassy, sweet]
   link: https://white2tea.com/products/big-leaf-bamboo-sheng-puer
+- id: shgst20 # Single Tree + 2020
+  name: Single Tree Sheng Pu'er
+  category: sheng pu'er
+  year: 2020
+  temp_f: 187
+  notes: [hay, grassy, sweet]
+  link: https://verdanttea.com/2020-single-tree-sheng
 - id: huan02 # Huangpian
   name: Yiwu Huangpian (Brick)
   category: sheng pu'er
