@@ -3,7 +3,8 @@ layout: default
 ---
 <article class="p-6 bg-gray-50 rounded-lg shadow-inner">
     <h2 class="text-4xl font-bold text-gray-800 mb-4">{{ page.title }}</h2>
-    <p class="text-gray-600 text-sm mb-6">Session on {{ page.date | date: "%B %-d, %Y" }} with {{ page.guest-names }}</p>
+    <p class="text-gray-600 text-sm mb-6">Session on {{ page.date | date: "%B %-d, %Y" }} with {{ page.guest-names }}
+    </p>
 
     {% include guests.html %}
 
@@ -12,27 +13,24 @@ layout: default
     {% endif %}
 
     <section class="mb-8 p-6 bg-green-50 rounded-lg shadow-inner">
-    <h2 class="text-3xl font-semibold mb-4 text-green-700">Teas We Had</h2>
-    <p class="text-lg leading-relaxed mb-4">
-        Here are the wonderful teas we had during our time together. These are links 
-        to pages where you can learn more about these teas, and order them
-        from the sources I get them:
-    </p>
-    {% for tea in page.teas %}
+        <h2 class="text-3xl font-semibold mb-4 text-green-700">Teas we had (茶)</h2>
+        <p class="text-lg leading-relaxed mb-4">
+            Here are the wonderful teas we had during our time together. These are links
+            to pages where you can learn more about these teas, and order them
+            from the sources I get them:
+        </p>
+        {% for tea in page.teas %}
         {% include tea.html tea=tea %}
-        <br/>
-    {% endfor %}
+        <br />
+        {% endfor %}
     </section>
 
     {% if page.links %}
     <section class="mb-8 p-6 bg-green-50 rounded-lg shadow-inner">
-    <h2 class="text-3xl font-semibold mb-4 text-green-700">Some things we talked about</h2>
-    {% for link in page.links %}
-        <a class="font-semibold text-blue-600 hover:text-blue-800 hover:underline transition duration-300"
-        target="_blank"
-        href="{{ link.url }}">{{ link.title }}</a>
-        <br/>
-    {% endfor %}
+        <h2 class="text-3xl font-semibold mb-4 text-green-700">Things we talked about (事)</h2>
+        {% for link in page.links %}
+        {% include link.html link=link%}
+        {% endfor %}
     </section>
     {% endif %}
 

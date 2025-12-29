@@ -1,0 +1,88 @@
+- id: chair
+  title: The Floor Chair
+  url: https://www.amazon.com/dp/B09BZ656H5
+- id: zafu
+  title: Zafu
+  context: The round cushions we sit on
+  url: https://www.amazon.com/dp/B000C9PGE4
+- id: tatami
+  title: Tatami
+  context: The woven mats laid in the floor
+  url: https://order-tatami.com/item-type/classic-series
+
+- id: MCT
+  title: Music City Tea
+  context: A great selection of tespots and other equipment
+  url: https://www.musiccitytea.com
+- id: taian
+  title: Tai'an Tea
+  context: A beautiful tea-shop nesled in Chinatown, Chicago
+  url: https://maps.app.goo.gl/Ciu5EFfRAv5sczPp6
+- id: LTC
+  title: Louisville Tea Co.
+  context: A great local tea store
+  url: https://www.louisvilleteacompany.com
+- id: fang
+  title: Fang Tea
+  context: Queens, NYC
+  url: https://fangtea.com
+
+- id: neti
+  title: Neti
+  context: A recommended daily practice of nasal cleansing
+  url: https://youtu.be/A3Tyz1l1-XQ
+- id: chaley
+  title: Text:Cha'ley
+  context: He works with herbs as healthy teas
+  url: sms:+15028761195
+- id: michelle
+  title: Text:Michelle
+  context: A local practictioner of holistic medicine
+  url: sms:+15028210816
+- id: GTH
+  context: A global school dedicated to the way of tea
+  title: Global Tea Hut
+  url: https://globalteahut.org
+
+- id: ramenshop
+  context: I could watch this film every day!
+  title: The Ramen Shop (Trailer)
+  url: https://www.youtube.com/watch?v=oB8PpdeSXRQ
+- id: puer
+  context: The Puer documentary we talked about
+  title: Puer Tea
+  url: https://www.youtube.com/playlist?list=PL9Z6M9dbgx77iXbllk1WAiOkWc0o_kdSm
+- id: THP
+  context: A walk through Chinese history, with a lens of tea
+  title: Tea History Podcast
+  url: https://youtube.com/playlist?list=PLIbDTFf1FSlFy_E4G2KqiaooXgPjPxf0Y
+
+- id: gingko
+  title: The Gingko Tree
+  url: https://maps.app.goo.gl/epzpuq2r5r2g63Nr6
+- id: 1977
+  title: Ana Tijoux - 1977
+  context: A cool song on 1977
+  url: https://www.youtube.com/watch?v=yiQ7S38nKog
+- id: teachers
+  title: What Teachers Make
+  context: Try not to cry
+  url: https://youtu.be/RxsOVK4syxU?si=tO69FtFs_POQGgbL
+- id: telepathy
+  title: The Telepathy Tapes
+  url: https://www.youtube.com/@TheTelepathyTapes
+- id: ayurveda
+  title: Ayurveda Doshas
+  context: What Ayurveda body-type are you?
+  url: https://www.healthline.com/nutrition/vata-dosha-pitta-dosha-kapha-dosha
+
+- id: tofu
+  title: Super Firm Tofu
+  url: https://www.kroger.com/p/simple-truth-organic-super-firm-tofu/0001111012603
+- id: meyer
+  title: Mrs. Meyer's Handsoap
+  url: https://www.kroger.com/p/mrs-meyer-s-clean-day-hand-soap-refill-lavender-made-without-parabens-or-phthalates/0080812411163
+- id: jayhind
+  title: Jay Hind
+  context: A local Indian Grocery Store
+  url: https://share.google/3kWyVFV1eqcfsAChX

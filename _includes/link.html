@@ -1,0 +1,25 @@
+{% assign featured_link = null %}
+
+<p style="margin-top:5px">
+    {% for link in site.data.links %}
+        {% if link.id == include.link %}
+            {% assign featured_link = link %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+
+    {% if featured_link != nil %}
+
+    <span class="font-semibold text-gray-800">
+        <a class="font-semibold text-blue-600 hover:text-blue-800 hover:underline transition duration-300"
+        target="_blank"
+        href="{{ featured_link.url }}">{{ featured_link.title }}</a>
+    </span>                
+    
+    <span class="text-sm text-gray-600">
+        {{ featured_link.context }}
+    </span>
+
+    {% endif %}
+
+</p>
