@@ -48,6 +48,11 @@
   context: I could watch this film every day!
   title: The Ramen Shop (Trailer)
   url: https://www.youtube.com/watch?v=oB8PpdeSXRQ
+- id: her
+  context: Let's fall in love with AI!
+  title: Her (Trailer)
+  url: https://www.youtube.com/watch?v=dJTU48_yghs
+  
 - id: puer
   context: The Puer documentary we talked about
   title: Puer Tea
