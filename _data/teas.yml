@@ -57,13 +57,6 @@
   temp_f: 193
   notes: [hay, grassy, sweet, aged]
   link: https://white2tea.com/products/2002-yiwu-huangpian-raw-puer-brick
-- id: jiao24 # Yunnan Wild Grown Jiaogulan + 2024
-  name: Yunnan Wild Grown Jiaogulan
-  category: herbal
-  year: 2024
-  temp_f: 183
-  notes: [sweet, vegetal]
-  link: https://yunnansourcing.com/products/yunnan-wild-grown-jiaogulan-gynostemma-pentaphyllum
 - id: dayu24
   name: Da Yu Ling
   category: oolong
@@ -99,3 +92,23 @@
   temp_f: 183
   notes: [foresty, sticky rice]
   link: https://verdanttea.com/2017-liu-bao-hei-cha
+
+- id: sage
+  name: Sage Tea
+  category: herbal
+  temp_f: 183
+  notes: [earthy, peppery]
+  link: https://a.co/d/76pnPsa
+- id: jiao24 # Yunnan Wild Grown Jiaogulan + 2024
+  name: Yunnan Wild Grown Jiaogulan
+  category: herbal
+  year: 2024
+  temp_f: 183
+  notes: [sweet, vegetal]
+  link: https://yunnansourcing.com/products/yunnan-wild-grown-jiaogulan-gynostemma-pentaphyllum
+- id: lotus
+  name: Lucky Shing Lotus Tea
+  category: herbal
+  temp_f: 183
+  notes: [sweet, smooth]
+  link: https://www.etsy.com/listing/1622354335/vietnamese-lotus-green-tea-150g-tra-sen
