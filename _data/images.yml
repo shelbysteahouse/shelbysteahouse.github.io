@@ -1,24 +1,32 @@
 - id: steam
   url: assets/images/steam.jpg
   caption: Steam is in the air!
+  scroll: true
 - id: ceremony
   url: assets/images/ceremony.jpg
   caption: Gungfu tea ceremony in action
+  scroll: true
 - id: serving
   url: assets/images/serving.jpg
   caption: Savoring every last drop!
+  scroll: true
 - id: table
   url: assets/images/table.jpg
   caption: A tea table for our tea friends!
+  scroll: true
 - id: hand
   url: assets/images/hand.jpg
   caption: The pause between pouring and tasting.
+  scroll: true
 - id: taj
   url: assets/images/taj.jpg
   caption: The Taj, during a visit many years ago.
+  scroll: false
 - id: gingko
   url: assets/images/gingko.jpg
   caption: Mama Gingko says 'hi'
+  scroll: false
 - id: notnofilter
   url: assets/images/not-no-filter.jpg
   caption: '#NotNoFilter, PC: Amanda'
+  scroll: false

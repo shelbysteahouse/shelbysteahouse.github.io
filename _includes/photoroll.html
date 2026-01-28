@@ -4,14 +4,30 @@
 
     <!-- Slideshow container -->
     <div class="slideshow-container">
-        {% assign current_index = 1 %}
+        <!-- Count the displayable images -->
+        {% assign total_images = 1 %}
         {% for image in site.data.images %}
+        {% if image.scroll %}
+
+        {% assign total_images = total_images | plus: 1 %}
+        
+        {% endif %}
+        {% endfor %}
+
+        <!-- Display them -->
+        {% assign current_index = 1 %}
+
+        {% for image in site.data.images %}
+        {% if image.scroll %}
+
         <div class="mySlides fade">
-            <div class="numbertext">{{ current_index}} / {{ site.data.images | size }}</div>
+            <div class="numbertext">{{ current_index}} / {{ total_images }}</div>
             <img src="{{ image.url }}" style="width:100%">
             <div class="text">{{ image.caption }}</div>
         </div>
         {% assign current_index = current_index | plus: 1 %}
+
+        {% endif %}
         {% endfor %}
     </div>
     <br>
@@ -20,8 +36,12 @@
     <div style="text-align:center">
         {% assign current_index = 1 %}
         {% for image in site.data.images %}
+        {% if image.scroll %}
+
         <span class="dot" onclick="currentSlide({{ current_index }})"></span>
         {% assign current_index = current_index | plus: 1 %}
+
+        {% endif %}
         {% endfor %}
     </div>
 
