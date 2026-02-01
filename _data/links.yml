@@ -1,3 +1,4 @@
+# objects
 - id: chair
   title: The Floor Chair
   url: https://www.amazon.com/dp/B09BZ656H5
@@ -10,6 +11,7 @@
   context: The woven mats laid in the floor
   url: https://order-tatami.com/item-type/classic-series
 
+# tea-places
 - id: MCT
   title: Music City Tea
   context: A great selection of tespots and other equipment
@@ -26,7 +28,12 @@
   title: Fang Tea
   context: Queens, NYC
   url: https://fangtea.com
+- id: GTH
+  context: A global school dedicated to the way of tea
+  title: Global Tea Hut
+  url: https://globalteahut.org
 
+# health
 - id: neti
   title: Neti
   context: A recommended daily practice of nasal cleansing
@@ -39,11 +46,8 @@
   title: Text:Michelle
   context: A local practictioner of holistic medicine
   url: sms:+15028210816
-- id: GTH
-  context: A global school dedicated to the way of tea
-  title: Global Tea Hut
-  url: https://globalteahut.org
 
+# movies
 - id: ramenshop
   context: I could watch this film every day!
   title: The Ramen Shop (Trailer)
@@ -51,8 +55,17 @@
 - id: her
   context: Let's fall in love with AI!
   title: Her (Trailer)
-  url: https://www.youtube.com/watch?v=dJTU48_yghs
-  
+  url: https://www.youtube.com/watch?v=dJTU48_yghs 
+- id: mamiwata
+  context: Practice your Pigeon English
+  title: Mami Wata
+  url: https://www.youtube.com/watch?v=BRmj7lyvRlk
+- id: dogville
+  context: A story of human trust
+  title: Dogville
+  url: https://youtu.be/v7L2-R4XhyE
+
+# tea-education
 - id: puer
   context: The Puer documentary we talked about
   title: Puer Tea
@@ -62,6 +75,7 @@
   title: Tea History Podcast
   url: https://youtube.com/playlist?list=PLIbDTFf1FSlFy_E4G2KqiaooXgPjPxf0Y
 
+# misc
 - id: gingko
   title: The Gingko Tree
   url: https://maps.app.goo.gl/epzpuq2r5r2g63Nr6
@@ -81,6 +95,7 @@
   context: What Ayurveda body-type are you?
   url: https://www.healthline.com/nutrition/vata-dosha-pitta-dosha-kapha-dosha
 
+# shopping
 - id: tofu
   title: Super Firm Tofu
   url: https://www.kroger.com/p/simple-truth-organic-super-firm-tofu/0001111012603

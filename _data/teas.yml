@@ -26,7 +26,7 @@
   name: Spring Snail (Bi Luo Chun)
   category: green
   year: 2024
-  temp_f: 183
+  temp_f: 179
   notes: [floral, creamy, bitter]
   link: https://yunnansourcing.us/products/yunnan-green-spring-snail-bi-luo-chun-green-tea
 - id: jasm24 # Jasmine 24
@@ -71,6 +71,13 @@
   temp_f: 193
   notes: [cedar, molasses, honey, fig]
   link: https://verdanttea.com/qianjiazhai-2014-gong-ting-shu-puer-250g
+- id: haiwan12
+  name: Haiwan Mini Brick Ripe
+  category: shu puerh
+  year: 2012
+  temp_f: 183
+  notes: [fishy, funky, earthy]
+  link: https://yunnansourcing.com/collections/haiwan-tea-factory/products/2012-haiwan-mini-brick-ripe-pu-erh-tea
 - id: srshu14
   name: Sticky Rice Ripe Pu-erh Mini Tuo Cha
   category: shu puerh
