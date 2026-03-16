@@ -34,6 +34,10 @@
   url: https://globalteahut.org
 
 # health
+- id: ayurveda
+  title: Ayurveda Doshas
+  context: What Ayurveda body-type are you?
+  url: https://youtu.be/-BEdhS9-cno
 - id: neti
   title: Neti
   context: A recommended daily practice of nasal cleansing
@@ -90,10 +94,6 @@
 - id: telepathy
   title: The Telepathy Tapes
   url: https://www.youtube.com/@TheTelepathyTapes
-- id: ayurveda
-  title: Ayurveda Doshas
-  context: What Ayurveda body-type are you?
-  url: https://youtu.be/-BEdhS9-cno
 
 # shopping
 - id: tofu
