@@ -32,6 +32,10 @@
   context: A global school dedicated to the way of tea
   title: Global Tea Hut
   url: https://globalteahut.org
+- id: LTR
+  context: An authentic British tea service in St. Louis
+  title: London Tea Room
+  url: https://share.google/RcFk13XCiYdwsp0sf
 
 # health
 - id: ayurveda
