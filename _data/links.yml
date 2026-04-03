@@ -84,6 +84,10 @@
   url: https://youtube.com/playlist?list=PLIbDTFf1FSlFy_E4G2KqiaooXgPjPxf0Y
 
 # misc
+- id: foko
+  title: FOKO
+  context: Mexican-inspired Breakfast & Lunch Cafe
+  url: https://share.google/f86XJ4qI6JAvddac3
 - id: gingko
   title: The Gingko Tree
   url: https://maps.app.goo.gl/epzpuq2r5r2g63Nr6
