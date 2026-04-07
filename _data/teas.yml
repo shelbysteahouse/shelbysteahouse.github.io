@@ -15,6 +15,7 @@
   temp_f: 183
   notes: [floral, vegetal]
   link: https://yunnansourcing.com/products/imperial-jin-guan-yin-aaa-grade-anxi-oolong-tea
+  sell: 50gm bag, $20
 - id: maoc23 # Yunnan Maocha 2023
   name: Yulan Maocha (Brick)
   category: oolong
@@ -22,6 +23,7 @@
   temp_f: 187
   notes: [floral, smoky, dry mouthfeel]
   link: https://white2tea.com/products/2023-yulan-maocha-brick
+  sell: 200gm brick, $75
 - id: snai24 # Spring Snail (Bi Luo Chun) + 2024
   name: Spring Snail (Bi Luo Chun)
   category: green
@@ -29,6 +31,7 @@
   temp_f: 179
   notes: [floral, creamy, bitter]
   link: https://yunnansourcing.us/products/yunnan-green-spring-snail-bi-luo-chun-green-tea
+  sell: 100gm, $15
 - id: jasm24 # Jasmine 24
   name: Imperial Grade Jasmine Pearls
   category: green
@@ -43,6 +46,7 @@
   temp_f: 193
   notes: [hay, grassy, sweet]
   link: https://white2tea.com/products/big-leaf-bamboo-sheng-puer
+  sell: 100gm, $30
 - id: shgst20 # Single Tree + 2020
   name: Single Tree Sheng Pu'er
   category: sheng pu'er
@@ -78,6 +82,7 @@
   temp_f: 183
   notes: [fishy, funky, earthy]
   link: https://yunnansourcing.com/collections/haiwan-tea-factory/products/2012-haiwan-mini-brick-ripe-pu-erh-tea
+  sell: 50gm, $10
 - id: srshu14
   name: Sticky Rice Ripe Pu-erh Mini Tuo Cha
   category: shu puerh
@@ -92,6 +97,7 @@
   temp_f: 193
   notes: [chocolate, sweet potato, molasses]
   link: https://yunnansourcing.com/products/imperial-mojiang-golden-bud-yunnan-black-tea
+  sell: 50gm, $10
 - id: liu2017
   name: Liu Bao Hei Cha
   category: black

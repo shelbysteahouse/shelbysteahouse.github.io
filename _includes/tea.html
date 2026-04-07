@@ -13,7 +13,13 @@
     <span class="font-semibold text-gray-800">
         <a class="font-semibold text-blue-600 hover:text-blue-800 hover:underline transition duration-300"
         target="_blank"
-        href="{{ featured_tea.link }}">{{ featured_tea.name }}</a>
+        href="{{ featured_tea.link }}">{{ featured_tea.name }} 
+
+        {% if featured_tea.sell and include.sell %}
+            <b> ({{ featured_tea.sell }})</b>
+        {% endif %}
+
+        </a>
     </span>                
     <br>
     

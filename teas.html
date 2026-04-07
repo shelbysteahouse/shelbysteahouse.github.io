@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="p-6 bg-gray-50 rounded-lg shadow-inner">
+    <section class="mb-8 p-6 bg-green-50 rounded-lg shadow-inner">
+        <h2 class="text-3xl font-semibold mb-4 text-green-700">Teas I can sell (茶)</h2>
+        <p class="text-lg leading-relaxed mb-4">
+            Of the teas I serve at Gung Fu, 
+            here are some I carry in abundance, and
+            can part with at retail  price.
+            I am not trying to compete with the original suppliers,
+            so you are more than welcome to purchase them directly from the
+            source!
+            <br/><br/>
+            I can only allow a pickup from my house!
+        </p>
+        {% for tea in site.data.teas %}
+        {% if tea.sell %}
+            {% include tea.html tea=tea.id sell=tea.sell %}
+        {% endif %}
+        {% endfor %}
+    </section>
+
+    {% include textme.html %}
+
+</article>
