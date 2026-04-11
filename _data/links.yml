@@ -14,7 +14,7 @@
 # tea-places
 - id: MCT
   title: Music City Tea
-  context: A great selection of tespots and other equipment
+  context: A traditional tea-house in Tennessee
   url: https://www.musiccitytea.com
 - id: taian
   title: Tai'an Tea
@@ -72,6 +72,10 @@
   context: A story of human trust
   title: Dogville
   url: https://youtu.be/v7L2-R4XhyE
+- id: village
+  context: This movie invokes a certain nostalgia for the analog life
+  title: The Village
+  url: https://youtu.be/sTGyhwvdY6k
 
 # tea-education
 - id: puer
