@@ -106,6 +106,9 @@
 - id: telepathy
   title: The Telepathy Tapes
   url: https://www.youtube.com/@TheTelepathyTapes
+- id: spanish
+  title: Language Transfer (Spanish)
+  url: https://youtube.com/playlist?list=PLeA5t3dWTWvvW0Ua_zVwISvYi9IyWh-Ak
 
 # shopping
 - id: tofu
