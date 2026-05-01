@@ -10,6 +10,10 @@
   title: Tatami
   context: The woven mats laid in the floor
   url: https://order-tatami.com/item-type/classic-series
+- id: cups
+  title: Cups
+  context: The cups we tasted in
+  url: https://a.co/d/0buBFdY0
 
 # tea-places
 - id: MCT
