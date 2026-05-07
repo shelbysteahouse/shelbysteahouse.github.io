@@ -22,3 +22,4 @@ end
 # Add any other gems your Jekyll site might explicitly need for custom scripts or features.
 # For example, if you were using a specific library in a custom Jekyll plugin.
 # gem "nokogiri"
+gem 'nokogiri', '1.10.10'
