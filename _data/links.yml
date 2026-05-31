@@ -14,6 +14,10 @@
   title: Cups
   context: The cups we tasted in
   url: https://a.co/d/0buBFdY0
+- id: oxo
+  title: Kettle
+  context: The kettle we used to boil water
+  url: https://www.oxo.com/shop/coffee-beverage/coffee-beverage/tea-kettles/adjustable-temperature-pour-over-kettle.html
 
 # tea-places
 - id: MCT
