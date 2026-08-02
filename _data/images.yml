@@ -30,3 +30,7 @@
   url: assets/images/not-no-filter.jpg
   caption: '#NotNoFilter, PC: Amanda'
   scroll: false
+- id: brody
+  url: assets/images/brody.jpg
+  caption: 'Bruh!'
+  scroll: false

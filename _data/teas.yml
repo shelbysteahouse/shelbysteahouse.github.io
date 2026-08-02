@@ -1,7 +1,8 @@
 # _data/teas.yml
 # This file contains the master list of tea data, now with unique IDs.
 
-- id: roug24 # Rou Gui Wuyi + 2024
+# oolong
+- id: roug24
   name: Rou Gui Wuyi
   category: oolong
   year: 2024
@@ -24,7 +25,9 @@
   notes: [floral, smoky, dry mouthfeel]
   link: https://white2tea.com/products/2023-yulan-maocha-brick
   sell: $75/200gm brick
-- id: snai24 # Spring Snail (Bi Luo Chun) + 2024
+
+# green
+- id: snai24
   name: Spring Snail (Bi Luo Chun)
   category: green
   year: 2024
@@ -38,14 +41,16 @@
   temp_f: 183
   notes: [floral, creamy, bitter]
   link: https://www.louisvilleteacompany.com/shop/sencha-high-grade/
-- id: jasm24 # Jasmine 24
+- id: jasm24
   name: Imperial Grade Jasmine Pearls
   category: green
   year: 2024
   temp_f: 183
   notes: [floral, creamy, minty]
   link: https://yunnansourcing.com/products/imperial-grade-jasmine-pearls-green-tea-1
-- id: shgbl15 # Big Leaf Bamboo + 2015
+
+# fermented
+- id: shgbl15
   name: Big Leaf Bamboo
   category: sheng pu'er
   year: 2015
@@ -53,20 +58,28 @@
   notes: [hay, grassy, sweet]
   link: https://white2tea.com/products/big-leaf-bamboo-sheng-puer
   sell: $30/100gm
-- id: shgst20 # Single Tree + 2020
+- id: shgst20
   name: Single Tree Sheng Pu'er
   category: sheng pu'er
   year: 2020
   temp_f: 187
   notes: [hay, grassy, sweet]
   link: https://verdanttea.com/2020-single-tree-sheng
-- id: huan02 # Huangpian
+- id: huan02
   name: Yiwu Huangpian (Brick)
   category: sheng pu'er
   year: 2002
   temp_f: 193
   notes: [hay, grassy, sweet, aged]
   link: https://white2tea.com/products/2002-yiwu-huangpian-raw-puer-brick
+- id: man11
+  name: 2011 Black Star
+  category: shu pu'er
+  year: 2018
+  temp_f: 193
+  notes: [citrus, sweet, aged]
+  link: https://white2tea.com/products/2011-black-star-puer-stuffed-xinhui-mandarin
+
 - id: dayu24
   name: Da Yu Ling
   category: oolong
@@ -96,6 +109,21 @@
   temp_f: 193
   notes: [sticky rice, soupy, chocolate]
   link: https://yunnansourcing.com/products/sticky-rice-scent-ripe-pu-erh-mini-tuo-cha-nuo-mi-xiang
+- id: liu2017
+  name: Liu Bao Hei Cha
+  category: black
+  year: 2017
+  temp_f: 183
+  notes: [foresty, sticky rice]
+  link: https://verdanttea.com/2017-liu-bao-hei-cha
+
+# black
+- id: red18
+  name: Natural Redhead
+  category: black
+  temp_f: 183
+  notes: [honey, floral, fruity]
+  link: https://white2tea.com/products/2018-natural-redhead
 - id: gb2024
   name: Imperial Mojiang Golden Bud
   category: black
@@ -104,13 +132,6 @@
   notes: [chocolate, sweet potato, molasses]
   link: https://yunnansourcing.com/products/imperial-mojiang-golden-bud-yunnan-black-tea
   sell: $10/50gm
-- id: liu2017
-  name: Liu Bao Hei Cha
-  category: black
-  year: 2017
-  temp_f: 183
-  notes: [foresty, sticky rice]
-  link: https://verdanttea.com/2017-liu-bao-hei-cha
 - id: jin
   name: Jing Jun Mei
   category: black
