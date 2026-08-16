@@ -2,6 +2,13 @@
 # This file contains the master list of tea data, now with unique IDs.
 
 # oolong
+- id: dayu24
+  name: Da Yu Ling
+  category: oolong
+  year: 2024
+  temp_f: 183
+  notes: [sweet, corn]
+  link: https://www.fangtea.com/product-page/da-yu-ling-%E5%A4%A7%E7%A6%B9%E5%B6%BA
 - id: roug24
   name: Rou Gui Wuyi
   category: oolong
@@ -79,14 +86,13 @@
   temp_f: 193
   notes: [citrus, sweet, aged]
   link: https://white2tea.com/products/2011-black-star-puer-stuffed-xinhui-mandarin
-
-- id: dayu24
-  name: Da Yu Ling
-  category: oolong
-  year: 2024
-  temp_f: 183
-  notes: [sweet, corn]
-  link: https://www.fangtea.com/product-page/da-yu-ling-%E5%A4%A7%E7%A6%B9%E5%B6%BA
+- id: bear06
+  name: 2006 Old Bear Fangcha
+  category: sheng pu'er
+  year: 2006
+  temp_f: 193
+  notes: [smokey, tobacco, aged]
+  link: https://white2tea.com/products/2006-old-bear-fangcha-puer-brick
 - id: gtshu14
   name: Gong Ting Shu Brick
   category: shu puerh
