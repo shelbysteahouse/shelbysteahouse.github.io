@@ -96,6 +96,10 @@
   url: https://youtube.com/playlist?list=PLIbDTFf1FSlFy_E4G2KqiaooXgPjPxf0Y
 
 # misc
+- id: benedetti
+  title: Te quiero
+  context: Poem by Uruguayan poet, Mario Benedetti Farrugia
+  url: https://www.youtube.com/watch?v=GHXQiYiTfvI
 - id: foko
   title: FOKO
   context: Mexican-inspired Breakfast & Lunch Cafe

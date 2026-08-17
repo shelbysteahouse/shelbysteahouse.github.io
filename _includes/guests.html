@@ -1,8 +1,20 @@
-<p class="text-gray-600 text-sm mb-6">Session on {{ page.date | date: "%B %-d, %Y" }} with 
-{% if page.guests %}
+{% assign idx = 0 %}
+<p class="text-gray-600 text-sm mb-6">Session on {{ page.date | date: "%B %-d, %Y" }} with
+    {% if page.guests %}
+
+    {% assign guests_size = page.guests | size %}
+
     {% for g in page.guests %}
-    <a href="sms:+1{{ g.phone }}">{{ g.name }}</a>
+
+    {% assign idx = idx | plus: 1 %}
+
+    <a href="sms:+1{{ g.phone }}">{{ g.name }}</a>{% if idx != guests_size %},
+    {% endif %}
+
     {% endfor %}
-{% else %}
+
+    {% else %}
+
     {{ page.guest-names }}
-{% endif %}
+
+    {% endif %}
