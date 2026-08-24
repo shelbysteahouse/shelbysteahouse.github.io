@@ -1,0 +1,36 @@
+{% assign pid = "now" | date: "%b%Y" | downcase %}
+
+{% for playlist in site.data.playlists %}
+{% if playlist.id == pid %}
+{% assign featured_playlist = playlist %}
+{% break %}
+{% endif %}
+{% endfor %}
+
+{% if featured_playlist != nil %}
+<a target="_blank" href="{{ featured_playlist.link }}"
+    class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform transition duration-300 hover:scale-105">
+    {{ featured_playlist.id }} </a>
+{% endif %}
+
+<p>
+    <br />
+    <select name="other-playlists" id="other-playlists">
+        <option value="">--Older playlists--</option>
+        {% for playlist in site.data.playlists %}
+        {% if playlist != featured_playlist %}
+        <option value="{{ playlist.link }}">{{ playlist.id }}</option>
+        {% endif %}
+        {% endfor %}
+    </select>
+</p>
+<script>
+    const playlistsSelect = document.getElementById('other-playlists');
+
+    playlistsSelect.addEventListener('change', function () {
+        const targetUrl = this.value;
+        if (targetUrl) {
+            window.open(targetUrl, '_blank');
+        }
+    });
+</script>

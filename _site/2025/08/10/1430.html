@@ -535,50 +535,90 @@
 
     
 
+    <section class="text-center p-6 bg-green-100 rounded-xl shadow-inner">
+    <h2 class="text-3xl font-semibold mb-4 text-green-700">What's playing at the tea-house? (乐)</h2>
     
 
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-            
-            
 
-    
 
-<section class="text-center p-6 bg-green-100 rounded-xl shadow-inner">
-    <a target="_blank"
-        href="https://youtube.com/playlist?list=PL9Z6M9dbgx77ZaqQ_e7VFoqTFmqDwFDJo"
-        class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform transition duration-300 hover:scale-105">
-        What's playing in the Tea-house this month (乐)</a>
-    <p style="margin-top: 10px;" class="text-lg leading-relaxed mb-4">
-        Enjoy the music we played during the ceremony
-    </p>
+
+
+
+
+<a target="_blank" href="https://youtube.com/playlist?list=PLd_aA6xThlE4"
+    class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform transition duration-300 hover:scale-105">
+    aug2026 </a>
+
+
+<p>
+    <br />
+    <select name="other-playlists" id="other-playlists">
+        <option value="">--Older playlists--</option>
+        
+        
+        
+        
+        <option value="https://youtube.com/playlist?list=PL9Z6M9dbgx75xI4XRxueZgVF4pMsZG0Hc">may2026</option>
+        
+        
+        
+        <option value="https://youtube.com/playlist?list=PL9Z6M9dbgx75SJY2hDAVff5_NXANwHzjT">apr2026</option>
+        
+        
+        
+        <option value="https://youtube.com/playlist?list=PL9Z6M9dbgx776tSamsCfDIC4B5egBGoA0">mar2026</option>
+        
+        
+        
+        <option value="https://youtube.com/playlist?list=PL9Z6M9dbgx75168aUNC_Cc8TbA_XqiFWR">feb2026</option>
+        
+        
+        
+        <option value="https://youtube.com/playlist?list=PL9Z6M9dbgx74brEDPqJhDTb0jptIwmv07">jan2026</option>
+        
+        
+        
+        <option value="https://youtube.com/playlist?list=PL9Z6M9dbgx76xyF-84WpYkfdO6sV59BtJ">dec2025</option>
+        
+        
+        
+        <option value="https://youtube.com/playlist?list=PL9Z6M9dbgx75v7KgfQOS05tBu2pr_y1Ap">nov2025</option>
+        
+        
+        
+        <option value="https://youtube.com/playlist?list=PL9Z6M9dbgx76-pMEyy-9IP0cKO95jt91b">oct2025</option>
+        
+        
+        
+        <option value="https://youtube.com/playlist?list=PL9Z6M9dbgx76s5DTT4S0xefM47PAvEW72">sept2025</option>
+        
+        
+        
+        <option value="https://youtube.com/playlist?list=PL9Z6M9dbgx77nCZh7a6ydz5NUTXcyLi1N">july2025</option>
+        
+        
+        
+        <option value="https://youtube.com/playlist?list=PL9Z6M9dbgx74EbTXsYqXMDQ-3FryVvyEr">june2025</option>
+        
+        
+        
+        <option value="https://youtube.com/playlist?list=PL9Z6M9dbgx77ZaqQ_e7VFoqTFmqDwFDJo">tea</option>
+        
+        
+    </select>
+</p>
+<script>
+    const playlistsSelect = document.getElementById('other-playlists');
+
+    playlistsSelect.addEventListener('change', function () {
+        const targetUrl = this.value;
+        if (targetUrl) {
+            window.open(targetUrl, '_blank');
+        }
+    });
+</script>
 </section>
 
-    
 
     <section class="text-center p-6">
     <a href="sms:+15022955267?body=Hello%20there!%20I%20am%20interested%20in%20your%20tea-ceremony.%20Please%20contact%20me."
