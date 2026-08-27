@@ -2,34 +2,42 @@
 
 <p>
     {% for tea in site.data.teas %}
-        {% if tea.id == include.tea %}
-            {% assign featured_tea = tea %}
-            {% break %}
-        {% endif %}
+    {% if tea.id == include.tea %}
+    {% assign featured_tea = tea %}
+    {% break %}
+    {% endif %}
     {% endfor %}
 
     {% if featured_tea != nil %}
 
     <span class="font-semibold text-gray-800">
         <a class="font-semibold text-blue-600 hover:text-blue-800 hover:underline transition duration-300"
-        target="_blank"
-        href="{{ featured_tea.link }}">{{ featured_tea.name }} 
+            target="_blank" href="{{ featured_tea.link }}">{{ featured_tea.name }}
 
-        {% if featured_tea.sell and include.sell %}
+            {% if featured_tea.sell and include.sell %}
             <b> ({{ featured_tea.sell }})</b>
-        {% endif %}
+            {% endif %}
 
         </a>
-    </span>                
+
+        <button class="snipcart-add-item" 
+            data-item-id="{{ featured_tea.id }}" 
+            data-item-price="{{ featured_tea.year }}"
+            data-item-description="{{ featured_tea.description }}"
+            data-item-image="/assets/images/hand.jpg" 
+            data-item-name="{{ featured_tea.name }}">
+            Add to cart
+        </button>
+    </span>
     <br>
-    
+
     <span class="text-sm text-gray-600">
-        Category: {{ featured_tea.category }} 
-        | Year: {{ featured_tea.year }} 
+        Category: {{ featured_tea.category }}
+        | Year: {{ featured_tea.year }}
         | Temp: {{ featured_tea.temp_f }}
         | multiple steeps</span>
     <br>
-    <span class="text-sm text-gray-600">Notes: 
+    <span class="text-sm text-gray-600">Notes:
         {% for note in featured_tea.notes %}
 
         {{ note }},
