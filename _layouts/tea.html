@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="p-6 bg-gray-50 rounded-lg shadow-inner">
+    <h2 class="text-4xl font-bold text-gray-800 mb-4">{{ page.title }}</h2>
+
+    {% if page.image %}
+    {% include image.html image=page.image %}
+    {% endif %}
+
+    <section class="mb-8 p-6 bg-green-50 rounded-lg shadow-inner">
+        <p class="text-lg leading-relaxed mb-4">
+            {{ page }}
+        </p>
+
+        {% if page.sell %}
+        <button class="snipcart-add-item" data-item-id="{{ page.tea_id }}" data-item-price="{{ page.price }}"
+            data-item-description="{{ page.category }}" data-item-image="page.image"
+            data-item-name="{{ page.title }}">
+            Add to cart
+        </button>
+
+        {% endif %}
+
+    </section>
+
+    {% include textme.html %}
+
+</article>

@@ -5,19 +5,21 @@ layout: default
     <section class="mb-8 p-6 bg-green-50 rounded-lg shadow-inner">
         <h2 class="text-3xl font-semibold mb-4 text-green-700">Teas I can sell (茶)</h2>
         <p class="text-lg leading-relaxed mb-4">
-            Of the teas I serve at Gung Fu, 
+            Of the teas I serve at Gung Fu,
             here are some I carry in abundance, and
             can part with at listed price.
             I am not trying to compete with the original suppliers,
             so you are more than welcome to purchase them directly from the
             source!
-            <br/><br/>
+            <br /><br />
             I can only allow a pickup from my house!
         </p>
-        {% for tea in site.data.teas %}
-        {% if tea.sell %}
-            {% include tea.html tea=tea.id sell=tea.sell %}
-        {% endif %}
+        {% for tea in site.teas %}
+        <article class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                <a href="{{ tea.url | relative_url }}" class="hover:text-blue-600">{{ tea.title }}</a>
+            </h3>
+        </article>
         {% endfor %}
     </section>
 

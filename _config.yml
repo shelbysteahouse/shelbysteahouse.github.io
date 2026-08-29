@@ -17,6 +17,9 @@ collections:
   recipes:
     output: true
     permalink: /recipes/:path/
+  teas:
+    output: true
+    permalink: /teas/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

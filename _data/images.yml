@@ -30,6 +30,14 @@
   url: assets/images/not-no-filter.jpg
   caption: '#NotNoFilter, PC: Amanda'
   scroll: false
+
+# teas
+- id: sara-green
+  url: assets/images/teas/sara-green.png
+  caption: Sara Ceylon Handmade Green Tea
+  scroll: false
+
+# random
 - id: brody
   url: assets/images/brody.jpg
   caption: 'Bruh!'
