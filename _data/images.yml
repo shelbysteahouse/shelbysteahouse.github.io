@@ -32,9 +32,25 @@
   scroll: false
 
 # teas
-- id: sara-green
-  url: assets/images/teas/sara-green.png
+- id: saraw
+  url: assets/images/teas/saraw.png
+  caption: Sara Ceylon Silver Tips
+  scroll: false
+- id: sarag
+  url: assets/images/teas/sarag.png
   caption: Sara Ceylon Handmade Green Tea
+  scroll: false
+- id: dayuling
+  url: assets/images/teas/dayuling.jpeg
+  caption: Da Yu Ling
+  scroll: false
+- id: imperialgb
+  url: assets/images/teas/imperialgb.jpeg
+  caption: Imperial Mojiang Golden Bud
+  scroll: false
+- id: shu
+  url: assets/images/teas/shu.png
+  caption: Shu Pu'erh
   scroll: false
 
 # random
