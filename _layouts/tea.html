@@ -16,11 +16,11 @@ layout: default
         <br>
         <span class="text-sm text-gray-600">Notes:
             <strong>
-            {% for note in page.notes %}
+                {% for note in page.notes %}
 
-            {{ note }},
+                {{ note }},
 
-            {% endfor %}
+                {% endfor %}
             </strong>
         </span>
     </p>
@@ -29,14 +29,13 @@ layout: default
         <p class="text-lg leading-relaxed mb-4">
             {{ page }}
         </p>
-
-        <!-- {% if page.sell %}
-        <button class="snipcart-add-item" data-item-id="{{ page.tea_id }}" data-item-price="{{ page.price }}"
-            data-item-description="{{ page.category }}" data-item-image="page.image"
-            data-item-name="{{ page.title }}">
+        <br><br>
+        {% if page.sell %}
+        <button class="snipcart-add-item inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition duration-300 hover:scale-105" data-item-id="{{ page.tea_id }}" data-item-price="{{ page.price }}"
+            data-item-description="{{ page.category }}" data-item-image="page.image" data-item-name="{{ page.title }}">
             Add to cart
-        </button>
-        {% endif %} -->
+    </button>
+        {% endif %}
 
     </section>
 
