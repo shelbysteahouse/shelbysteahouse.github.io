@@ -2,10 +2,23 @@
 layout: default
 ---
 <article class="p-6 bg-gray-50 rounded-lg shadow-inner">
-    <h2 class="text-3xl font-semibold mb-4 text-green-700">Teas that I serve (茶)</h3>
+    <h2 class="text-3xl font-semibold mb-4 text-green-700">Teas I can sell (茶)</h3>
+        <p>
+            While joining me at the gung-fu ceremony, sometimes I get asked if I sell tea. While I am not a full-fledged
+            tea shop, I have recently started storing some teas in small batches, to let my guests buy!
+            <br><br>
+            Recently, while traveling through Sri Lanka, I came across Sara Cylon Tea, a local, small tea-maker,
+            who let me taste some handmade teas. I am presenting some of these teas here. If you are like me, and want
+            to add some exotic teas to your gubng-fu experience, you will love these teas!
+            <br><br>
+            Some of these teas were made to order, just in the last couple of months, to ensure that we get the freshest taste straight from the
+            Central Highlands of Sri Lanka!
+        </p>
+
         {% assign categoties = site.teas | group_by: "category" %}
 
         {% for c in categoties %}
+        <br>
         <h4 class="text-2xl font-semibold mb-4 text-black-600">{{ c.name }}</h4>
         <ul>
             {% for tea in c.items %}

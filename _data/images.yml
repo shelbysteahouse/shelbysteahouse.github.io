@@ -40,6 +40,15 @@
   url: assets/images/teas/sarag.png
   caption: Sara Ceylon Handmade Green Tea
   scroll: false
+- id: saray
+  url: assets/images/teas/sarag.png
+  caption: Sara Ceylon Yellow Peony
+  scroll: false
+- id: saraoo
+  url: assets/images/teas/saraoo.png
+  caption: Handmade Oolong
+  scroll: false
+
 - id: dayuling
   url: assets/images/teas/dayuling.jpeg
   caption: Da Yu Ling

@@ -7,6 +7,23 @@ layout: default
     {% if page.image %}
     {% include image.html image=page.image %}
     {% endif %}
+    <p>
+        <span class="text-sm text-gray-600">
+            Category: <strong>{{ page.category }}</strong>
+            | Year: <strong>{{ page.year }}</strong>
+            | Temp: <strong>{{ page.temp_f }}</strong>
+            | <strong>multiple steeps</span></strong>
+        <br>
+        <span class="text-sm text-gray-600">Notes:
+            <strong>
+            {% for note in page.notes %}
+
+            {{ note }},
+
+            {% endfor %}
+            </strong>
+        </span>
+    </p>
 
     <section class="mb-8 p-6 bg-green-50 rounded-lg shadow-inner">
         <p class="text-lg leading-relaxed mb-4">
