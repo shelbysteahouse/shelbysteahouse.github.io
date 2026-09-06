@@ -32,6 +32,10 @@
   scroll: false
 
 # teas
+- id: sarasampler
+  url: assets/images/teas/sarasampler.png
+  caption: Sara Ceylon Sampler
+  scroll: false
 - id: saraw
   url: assets/images/teas/saraw.png
   caption: Sara Ceylon Silver Tips

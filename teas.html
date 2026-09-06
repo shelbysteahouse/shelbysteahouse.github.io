@@ -15,13 +15,10 @@ layout: default
             taste straight from the Central Highlands of Sri Lanka!
         </p>
 
-        {% assign categoties = site.teas | group_by: "category" %}
-
-        {% for c in categoties %}
         <br>
         <h4 class="text-2xl font-semibold mb-4 text-black-600">{{ c.name }}</h4>
         <ul>
-            {% for tea in c.items %}
+            {% for tea in site.teas %}
             <li>
                 <article class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
                     <h3 class="text-2xl font-bold text-blue-800 mb-2">
@@ -31,7 +28,6 @@ layout: default
             </li>
             {% endfor %}
         </ul>
-        {% endfor %}
 
         {% include textme.html %}
 
