@@ -33,7 +33,7 @@ layout: default
         {% if page.sell %}
         <button class="snipcart-add-item inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition duration-300 hover:scale-105" data-item-id="{{ page.tea_id }}" data-item-price="{{ page.price }}"
             data-item-description="{{ page.category }}" data-item-image="page.image" data-item-name="{{ page.title }}">
-            Add to cart
+            (${{ page.price }}/{{ page.weight }}) Add to cart
     </button>
         {% endif %}
 
