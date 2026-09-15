@@ -40,7 +40,7 @@
   year: 2026
   temp_f: 183
   notes: [sweet, floral]
-  link: /teas/white/saraw26
+  link: /teas/saraw26
 
 # green
 - id: sarag26
@@ -49,7 +49,7 @@
   year: 2026
   temp_f: 183
   notes: [sweet, vegetal]
-  link: /teas/green/sarag26
+  link: /teas/sarag26
 - id: snai24
   name: Spring Snail (Bi Luo Chun)
   category: green

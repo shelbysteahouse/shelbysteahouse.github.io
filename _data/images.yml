@@ -71,3 +71,7 @@
   url: assets/images/brody.jpg
   caption: 'Bruh!'
   scroll: false
+- id: ghibli
+  url: assets/images/ghibli.jpg
+  caption: 'I''m not religeous y''all!'
+  scroll: false
