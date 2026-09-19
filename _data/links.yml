@@ -18,6 +18,10 @@
   title: Kettle
   context: The kettle we used to boil water
   url: https://www.oxo.com/shop/coffee-beverage/coffee-beverage/tea-kettles/adjustable-temperature-pour-over-kettle.html
+- id: eshoji
+  title: E-Shoji
+  context: Shoji paper and glue used in the house
+  url: https://www.eshoji.com/
 
 # tea-places
 - id: MCT
@@ -96,6 +100,10 @@
   url: https://youtube.com/playlist?list=PLIbDTFf1FSlFy_E4G2KqiaooXgPjPxf0Y
 
 # misc
+- id: birthday
+  title: Birthday Problem
+  context: How often can 2 people share a birthday?
+  url: https://en.wikipedia.org/wiki/Birthday_problem
 - id: cardib
   title: Pretty & Petty
   context: You from Boston, let's have a little tea party
