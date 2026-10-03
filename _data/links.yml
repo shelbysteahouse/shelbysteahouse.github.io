@@ -132,7 +132,12 @@
   url: https://www.youtube.com/@TheTelepathyTapes
 - id: spanish
   title: Language Transfer (Spanish)
+  context: Aprende español siguiendo un curso de audio guiado.
   url: https://youtube.com/playlist?list=PLeA5t3dWTWvvW0Ua_zVwISvYi9IyWh-Ak
+- id: mandarin
+  title: Guided Mandarin
+  context: Learn Mandarin by following a guided audio course
+  url: https://www.youtube.com/playlist?list=PLzViq8fRe0iNrA1s1OOZMK6l8iyzIIJzN
 - id: sunergos
   title: Sunergos Coffee
   context: A local coffeehouse chain
