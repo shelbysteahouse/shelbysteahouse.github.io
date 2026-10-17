@@ -70,23 +70,23 @@
 # movies
 - id: ramenshop
   context: I could watch this film every day!
-  title: The Ramen Shop (Trailer)
+  title: Movie – The Ramen Shop (Trailer)
   url: https://www.youtube.com/watch?v=oB8PpdeSXRQ
 - id: her
   context: Let's fall in love with AI!
-  title: Her (Trailer)
+  title: Movie – Her (Trailer)
   url: https://www.youtube.com/watch?v=dJTU48_yghs 
 - id: mamiwata
   context: Practice your Pigeon English
-  title: Mami Wata
+  title: Movie – Mami Wata
   url: https://www.youtube.com/watch?v=BRmj7lyvRlk
 - id: dogville
   context: A story of human trust
-  title: Dogville
+  title: Movie – Dogville
   url: https://youtu.be/v7L2-R4XhyE
 - id: village
   context: This movie invokes a certain nostalgia for the analog life
-  title: The Village
+  title: Movie – The Village
   url: https://youtu.be/sTGyhwvdY6k
 
 # tea-education
@@ -138,11 +138,16 @@
   title: Guided Mandarin
   context: Learn Mandarin by following a guided audio course
   url: https://www.youtube.com/playlist?list=PLzViq8fRe0iNrA1s1OOZMK6l8iyzIIJzN
-- id: sunergos
-  title: Sunergos Coffee
-  context: A local coffeehouse chain
-  url: https://maps.app.goo.gl/PrAYAp6pvoKgCnzg8
 
+# louisville
+- id: contra
+  title: Louisville Contra
+  context: Louisville's local contra-dancing scene
+  url: https://www.louisvillecountrydancers.org
+- id: jayhind
+  title: Jay Hind
+  context: A local Indian Grocery Store
+  url: https://share.google/3kWyVFV1eqcfsAChX
 
 # shopping
 - id: tofu
@@ -151,7 +156,3 @@
 - id: meyer
   title: Mrs. Meyer's Handsoap
   url: https://www.kroger.com/p/mrs-meyer-s-clean-day-hand-soap-refill-lavender-made-without-parabens-or-phthalates/0080812411163
-- id: jayhind
-  title: Jay Hind
-  context: A local Indian Grocery Store
-  url: https://share.google/3kWyVFV1eqcfsAChX
