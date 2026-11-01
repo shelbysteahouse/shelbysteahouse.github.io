@@ -140,6 +140,10 @@
   url: https://www.youtube.com/playlist?list=PLzViq8fRe0iNrA1s1OOZMK6l8iyzIIJzN
 
 # louisville
+- id: colada
+  title: Sweet Colada
+  context: Vibrant Cuban café
+  url: https://maps.app.goo.gl/2kx6eHSSQKDWQ6PB6
 - id: contra
   title: Louisville Contra
   context: Louisville's local contra-dancing scene

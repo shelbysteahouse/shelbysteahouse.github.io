@@ -73,6 +73,13 @@
   link: https://yunnansourcing.com/products/imperial-grade-jasmine-pearls-green-tea-1
 
 # fermented
+- id: ebullient
+  name: Ebullient Ripe-Raw Blend Pu-erh
+  category: sheng-shu pu'er
+  year: 2019
+  temp_f: 187
+  notes: [sweet, umami, savory, bitter]
+  link: https://yunnansourcing.com/products/2019-yunnan-sourcing-ebullient-ripe-raw-blend-pu-erh-tea-cake
 - id: shgbl15
   name: Big Leaf Bamboo
   category: sheng pu'er
